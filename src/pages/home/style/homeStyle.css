@@ -1,0 +1,8 @@
+.header-main-wrapper{
+    flex-wrap: wrap;
+    padding: 10px;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
