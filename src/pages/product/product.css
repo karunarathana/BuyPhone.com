@@ -1,0 +1,50 @@
+.product-main-wrapper {
+    border: 1px solid rgb(17, 17, 17);
+    width: 22%;
+    height: 20em;
+}
+
+.product-OFF-indicator {
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    display: flex;
+    justify-content: end;
+    height: 12em;
+}
+
+.tag-off {
+    margin-top: -3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://buyabans.com/themes/buyabans/assets/images/icon/extra-save-new.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 3em;
+    width: 3em;
+    color: white;
+}
+
+.test {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.test-image{
+    display: flex;
+    justify-content: center;
+}
