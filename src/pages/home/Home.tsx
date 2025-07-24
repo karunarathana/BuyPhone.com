@@ -1,4 +1,5 @@
 import Ads from "../ads/Ads"
+import Footer from "../footer/Footer"
 import Product from "../product/Product"
 import Logo from "./components/Logo"
 import NotificationArea from "./components/NotificationArea"
@@ -24,6 +25,9 @@ function Home() {
       </div>
       <div>
         <Product></Product>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </>
   )

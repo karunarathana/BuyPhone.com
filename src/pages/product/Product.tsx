@@ -5,7 +5,7 @@ function Product() {
       <div className='product-image'>
         <div className='test-image'>
           <img src="https://buyabans.com/themes/buyabans/assets/images/icon/extra-save-new.png" alt="Washing Machine"
-            width="20%" />
+            width="50%" />
         </div>
         <div className='test'>
           <div className='product-OFF-indicator'>
