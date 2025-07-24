@@ -5,7 +5,7 @@ import { Badge } from '@mui/material';
 
 function NotificationArea() {
     return (
-        <div style={{ display: 'flex', gap: '0.3em' }}>
+        <div style={{ display: 'flex', gap: '1em' }}>
             <div style={{ display: 'flex', gap: '5px', alignItems: 'center' }}>
                 <Badge badgeContent={1} color="error">
                     <ShoppingCartOutlinedIcon color="action" />
