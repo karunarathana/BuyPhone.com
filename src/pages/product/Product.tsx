@@ -1,10 +1,12 @@
 import './product.css'
+import productImage from '../../assets/react.svg'
+
 function Product() {
   return (
     <div className='product-main-wrapper'>
       <div className='product-image'>
         <div className='test-image'>
-          <img src="https://buyabans.com/themes/buyabans/assets/images/icon/extra-save-new.png" alt="Washing Machine"
+          <img src={productImage} alt="Washing Machine"
             width="50%" />
         </div>
         <div className='test'>
@@ -18,9 +20,17 @@ function Product() {
           </div>
         </div>
       </div>
-      <p>Nipun Snadeepa Karunarathna</p>
-      <p>Total</p>
-      <button>Buy</button>
+      <div className='product-details-div'>
+        <p>Nipun Snadeepa Karunarathna</p>
+        <p>
+          <span className="old-price">Rs. 49,990</span>
+          &nbsp;
+          <span className="new-price">Rs. 19,000</span>
+        </p>
+      </div>
+      <div className='product-buy-button-div'>
+        <button>Buy</button>
+      </div>
     </div>
   )
 }

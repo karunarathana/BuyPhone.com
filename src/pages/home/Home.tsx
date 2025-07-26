@@ -23,8 +23,13 @@ function Home() {
         <Ads/>
         <Ads/>
       </div>
-      <div>
-        <Product></Product>
+      <div style={{display:'flex',justifyContent:'space-evenly',flexWrap:'wrap',padding:'10px'}}>
+        <Product/>
+        <Product/>
+        <Product/>
+        <Product/>
+        <Product/>
+        <Product/>
       </div>
       <div>
         <Footer/>
