@@ -6,3 +6,8 @@
     align-items: center;
     justify-content: space-between;
 }
+@media (max-width: 810px) {
+  .test1{
+    display: none;
+  }
+}

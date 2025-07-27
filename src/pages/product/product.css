@@ -1,0 +1,96 @@
+.product-main-wrapper {
+    border-right: 1px solid rgb(158, 153, 153);
+    width: 20%;
+    height: 16em;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.product-main-wrapper:hover {
+    .product-buy-button-div button {
+        display: block;
+    }
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-OFF-indicator {
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    display: flex;
+    justify-content: end;
+    height: 8em;
+}
+
+.tag-off {
+    margin-top: -3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://buyabans.com/themes/buyabans/assets/images/icon/extra-save-new.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 3em;
+    width: 3em;
+    color: white;
+}
+
+.test {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test-image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.new-price {
+    color: rgb(21, 167, 21);
+    font-weight: bold;
+}
+
+.product-details-div {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.product-buy-button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.product-buy-button-div button {
+    display: none;
+    border: none;
+    width: 90%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.product-buy-button-div button:hover {
+    background-color: rgb(114, 248, 114);
+}

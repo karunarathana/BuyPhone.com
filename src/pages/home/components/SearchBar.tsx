@@ -8,7 +8,7 @@ function SearchBar() {
             placeholder="Search..."
             variant="outlined"
             size="small"
-            sx={{ width: 300 }}
+            sx={{ width: 700 }}
             InputProps={{
                 startAdornment: (
                     <InputAdornment position="start">
