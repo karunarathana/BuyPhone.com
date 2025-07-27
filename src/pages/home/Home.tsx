@@ -1,6 +1,7 @@
 import Ads from "../ads/Ads"
 import Footer from "../footer/Footer"
 import Product from "../product/Product"
+import ProductDesription from "../productDescription/ProductDesription"
 import Logo from "./components/Logo"
 import NotificationArea from "./components/NotificationArea"
 import SearchBar from "./components/SearchBar"
@@ -10,7 +11,7 @@ function Home() {
 
   return (
     <>
-      <div className="header-main-wrapper">
+      {/* <div className="header-main-wrapper">
         <div><Logo/></div>
         <div className="test1"><SearchBar/></div>
         <div><NotificationArea/></div>
@@ -33,7 +34,8 @@ function Home() {
       </div>
       <div>
         <Footer/>
-      </div>
+      </div> */}
+      <ProductDesription/>
     </>
   )
 }
